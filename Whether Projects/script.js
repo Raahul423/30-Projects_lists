@@ -27,8 +27,6 @@ async function report(city){
         report.src="/images/rain.png"
     }
 
-
-
 }
     
 let input = document.querySelector("#input")
