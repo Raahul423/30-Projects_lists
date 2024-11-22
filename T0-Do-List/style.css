@@ -106,4 +106,21 @@ ul li.checked::before{
     background-image: url(./To-Do-Img/images/checked.png)
 }
 
+ul li span{
+    position: absolute;
+    color: #555;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    right: 20em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+ul li span:hover{
+    background-color: #555;
+    border-radius: 50px;
+    color: #fff;
+}
+
 
