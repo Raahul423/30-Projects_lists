@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(43, 43, 135);
+}
+
+.Quiz{
+    height: fit-content;
+    width: 25em;
+    background: #fff;
+    margin: 10em auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px  #000;
+}
+.simple{
+    margin-bottom: 1em;
+    font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.btn button{
+    height: 2.8em;
+    width: 30em;
+    background: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    padding: .8em;
+}
+
+.btn button:hover{
+    background-color: #262626;
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.buttons p{
+    font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.2em;
+  color: rgb(131, 57, 57);
+}
