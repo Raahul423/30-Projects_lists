@@ -56,3 +56,33 @@ body{
   font-size: 1.2em;
   color: rgb(131, 57, 57);
 }
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.submit button{
+    height: 2.5em;
+    width: 8em;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: aqua;
+    outline: none;
+    border: 1px solid #111;
+    margin-top: 2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.submit button:hover{
+    background: #111;
+    color: #fff;
+    transition: .2s ease-in-out;
+}
